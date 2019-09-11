@@ -96,21 +96,27 @@ class Athlete {
 ### Gridview with builder
 
 ```dart
-return Scaffold(
-    appBar: AppBar(
-    title: Text('Atlit Peraih Medali Olimpiade'),
-    leading: Icon(FontAwesomeIcons.trophy),
-    backgroundColor: Colors.deepPurple,
-    ),
-    body: GridView.builder(
-    itemCount: listItem.length,
-    gridDelegate:
-        SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
-    itemBuilder: (BuildContext context, int index) {
-        return _WidgetAthlete(listItem[index]);
-    },
-    ),
-);
+class LandingPage extends StatelessWidget {
+  final listItem = athletes;
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Atlit Peraih Medali Olimpiade'),
+        leading: Icon(FontAwesomeIcons.trophy),
+        backgroundColor: Colors.deepPurple,
+      ),
+      body: GridView.builder(
+        itemCount: listItem.length,
+        gridDelegate:
+            SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+        itemBuilder: (BuildContext context, int index) {
+          return _WidgetAthlete(listItem[index]);
+        },
+      ),
+    );
+  }
+}
 ```
 
 ### Widget Athlete (GridTile berdasarkan data yang diambil dari data athletes)

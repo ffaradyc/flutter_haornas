@@ -92,6 +92,7 @@ class Athlete {
   }
 }
 ```
+Source Code dapat dilihat [disini](https://github.com/ffaradyc/flutter_haornas/blob/master/lib/data/athletes.dart)
 
 ### Gridview with builder
 
@@ -184,6 +185,8 @@ class _WidgetAthlete extends StatelessWidget {
   }
 }
 ```
+Source Code dapat dilihat [disini](https://github.com/ffaradyc/flutter_haornas/blob/master/lib/landingpage.dart)
+
 
 ### Detail Page
 ```dart
@@ -280,6 +283,7 @@ class DetailPage extends StatelessWidget {
   }
 }
 ```
+Source Code dapat dilihat [disini](https://github.com/ffaradyc/flutter_haornas/blob/master/lib/detailpage.dart)
 
 
 ### Info Lebih Lengkap

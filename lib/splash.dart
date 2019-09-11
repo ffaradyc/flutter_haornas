@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:osg5_tugas_3/landingpage.dart';
+
+import 'landingpage.dart';
 
 class SplashPage extends StatelessWidget {
   @override

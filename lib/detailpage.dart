@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:osg5_tugas_3/data/athletes.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+import 'data/athletes.dart';
 
 class DetailPage extends StatelessWidget {
   final Athlete data;
@@ -69,11 +70,11 @@ class DetailPage extends StatelessWidget {
                 text: data.olympic,
                 style: TextStyle(color: Colors.black87, fontSize: 18.0),
                 children: <TextSpan>[
-                  TextSpan (text: "    "),
+                  TextSpan(text: "    "),
                   TextSpan(
-                      text: data.year.toString(),
-                      style: TextStyle(fontWeight: FontWeight.bold), ),
-                  
+                    text: data.year.toString(),
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
                 ],
               ),
             ),

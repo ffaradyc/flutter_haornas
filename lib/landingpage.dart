@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:osg5_tugas_3/data/athletes.dart';
-import 'package:osg5_tugas_3/detailpage.dart';
+
+import 'data/athletes.dart';
+import 'detailpage.dart';
 
 class LandingPage extends StatelessWidget {
   final listItem = athletes;

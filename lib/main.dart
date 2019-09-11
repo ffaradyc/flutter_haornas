@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:osg5_tugas_3/splash.dart';
+
+import 'splash.dart';
 
 
 void main() => runApp(MyApp());

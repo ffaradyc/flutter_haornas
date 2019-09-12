@@ -2,9 +2,9 @@
 Aplikasi Flutter mendapatkan dan menampilkan Gridview atlet penerima medali Olimpiade
 
 ### Screenshot
-![Screenshot 1 Splashscreen](./S1.png)
-![Screenshot 2 GridView](./S2.png )
-![Screenshot 3 DetailView](./S3.png)
+![Screenshot 1 Splashscreen](./docs/S1.png)
+![Screenshot 2 GridView](./docs/S2.png )
+![Screenshot 3 DetailView](./docs/S3.png)
 
 ### Built With
 - [Flutter](https://flutter.dev)
